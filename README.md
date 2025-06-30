@@ -49,3 +49,10 @@ dev-recall ask "Give me an example of using rsync with ssh"
 dev-recall tui
 ```
 
+## 🧠 Example Prompts
+```bash
+dev-recall ask "How did I start the postgres container last week?"
+dev-recall ask "Give me a sample nginx config for reverse proxy"
+dev-recall ask "What was my Kubernetes port-forward command?"
+```
+
