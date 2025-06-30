@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "dev-recall"
+version = "0.1.0"
+description = "Track and recall developer terminal activity using local AI"
+authors = ["Your Name <you@example.com>"]
+packages = [{ include = "dev_recall" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = "=0.15.4"
+openai = "^1.0"
+textual = "^0.45.0"
+rich = "^13.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+dev-recall = "dev_recall.main:cli_entry"

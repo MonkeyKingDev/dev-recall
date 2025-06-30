@@ -1,0 +1,9 @@
+#log-table {
+  height: 1fr;
+}
+
+#status {
+  height: 3;
+  padding: 1;
+  color: cyan;
+}
