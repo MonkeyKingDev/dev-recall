@@ -29,7 +29,7 @@
 ### 1. Install via `pipx`
 
 ```bash
-pipx install git+https://github.com/mishra-ayush08/dev-recall
+pipx install git+https://github.com/MonkeyKingDev/dev-recall
 ```
 
 ### 2. Enable terminal command logging
